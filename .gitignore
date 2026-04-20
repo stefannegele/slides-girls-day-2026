@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.output/
+
+# Slidev exports
+*.pdf
+*.png
+*.pptx
+
+# OS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/

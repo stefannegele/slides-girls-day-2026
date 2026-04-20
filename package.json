@@ -1,0 +1,20 @@
+{
+  "name": "girls-day-2026",
+  "private": true,
+  "scripts": {
+    "dev": "slidev slides.md",
+    "build": "slidev build slides.md",
+    "export": "slidev export slides.md"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  },
+  "devDependencies": {
+    "@oxc-parser/binding-darwin-arm64": "^0.126.0",
+    "@slidev/cli": "^52.14.2",
+    "@slidev/theme-default": "^0.25.0",
+    "vue": "^3.5.32"
+  }
+}
