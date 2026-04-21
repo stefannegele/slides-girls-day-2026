@@ -595,9 +595,9 @@ Die KI liest keinen Text wie wir. Sie zerlegt alles zuerst in kleine Einheiten �
 
 <div>
 
-<div style="font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #004153; margin-bottom: 0.75rem;">Vektoren – Wörter als Punkte im Raum</div>
+<div style="font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #004153; margin-bottom: 0.75rem;">Vektoren – Tokens als Punkte im Raum</div>
 
-Jedes Token wird in eine **Zahl-Liste** umgewandelt (einen Vektor). Ähnliche Wörter landen dabei nah beieinander.
+Jedes Token wird in eine **Zahl-Liste** umgewandelt (einen Vektor). Ähnliche Tokens landen dabei nah beieinander.
 
 <div style="margin-top: 0.75rem; background: #f4f4f4; border-radius: 6px; padding: 0.75rem 1rem; display: flex; justify-content: space-between; align-items: flex-start;">
   <div style="display: flex; flex-direction: column; gap: 0.3rem;">
@@ -613,7 +613,7 @@ Jedes Token wird in eine **Zahl-Liste** umgewandelt (einen Vektor). Ähnliche W�
 </div>
 
 <div style="font-size: 0.78rem; color: #646465; margin-top: 0.5rem;">
-  Wörter aus derselben Gruppe landen nah beieinander – Wörter aus verschiedenen Gruppen sind weit voneinander entfernt.
+  Tokens aus derselben Gruppe landen nah beieinander – Tokens aus verschiedenen Gruppen sind weit voneinander entfernt. Zur Vereinfachung zeigen wir hier ganze Wörter als Tokens.
 </div>
 
 </div>
