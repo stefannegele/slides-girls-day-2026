@@ -191,7 +191,10 @@ layout: default
   <span>Website iterativ mit Copilot entwickeln <span class="praxis-badge">Praxis</span></span>
 </div>
 <div class="agenda-item break">
-  <span>Agents & Skills kennenlernen <em style="font-size:0.8em;">(falls Zeit)</em></span>
+  <span>Agents & Skills kennenlernen <em style="font-size:0.8em;">(falls Zeit)</em> <span class="praxis-badge">Praxis</span></span>
+</div>
+<div class="agenda-item">
+  <span>Website online stellen <span class="praxis-badge">Praxis</span></span>
 </div>
 <div class="agenda-item">
   <span>Demo – eure Websites!</span>
