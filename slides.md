@@ -180,6 +180,9 @@ layout: default
   <span>Wie funktioniert ein Agent?</span>
 </div>
 <div class="agenda-item">
+  <span>Produktentwicklung</span>
+</div>
+<div class="agenda-item">
   <span>Website planen <span class="praxis-badge">Praxis</span></span>
 </div>
 </div>
@@ -744,4 +747,203 @@ Ein Agent ist ein Programm, das **immer wieder dasselbe tut** – bis die Aufgab
   <span style="background: #f4f4f4; padding: 0.25rem 0.65rem; border-radius: 4px; font-size: 0.82rem;">🌐 Websites aufrufen</span>
   <span style="background: #f4f4f4; padding: 0.25rem 0.65rem; border-radius: 4px; font-size: 0.82rem;">🖥️ Code ausführen</span>
   <span style="background: #f4f4f4; padding: 0.25rem 0.65rem; border-radius: 4px; font-size: 0.82rem;">💬 Andere KIs fragen</span>
+</div>
+
+---
+layout: cover
+background: '#55cdaf'
+---
+
+<div style="display:flex; flex-direction:column; height:100%; justify-content:space-between;">
+<div style="font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 0.85rem; font-weight:700; color:#004153; letter-spacing:0.1em; text-transform:uppercase;">Produktentwicklung</div>
+<div>
+  <h1 style="color:#24244c; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size:2.8rem; line-height:1.1; margin-bottom:1rem;">
+    Wie entsteht<br><span style="color:#004153;">Software?</span>
+  </h1>
+</div>
+<div style="font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size:0.8rem; color:#004153;">INNOQ · Girls' Day 2026</div>
+</div>
+
+---
+layout: default
+---
+
+# Wer ist eigentlich beteiligt?
+
+Alle, die ein Interesse am Produkt haben, nennt man **Stakeholder** – das sind ganz verschiedene Rollen.
+
+<div style="margin-top: 1.75rem; display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem;">
+
+<div style="padding: 1rem 1.25rem; background: #f4f4f4; border-left: 4px solid #ff9c66;">
+  <div style="font-family: Helvetica Neue, Arial, sans-serif; font-weight: 700; font-size: 0.9rem; color: #24244c; margin-bottom: 0.4rem;">👩‍💼 Auftraggeber</div>
+  <div style="font-size: 0.85rem; color: #646465; line-height: 1.6;">Die Person oder Organisation, die das Produkt <strong>bezahlt und in Auftrag gibt</strong> – z. B. eine Chefin, ein Verein, ein Unternehmen.</div>
+</div>
+
+<div style="padding: 1rem 1.25rem; background: #f4f4f4; border-left: 4px solid #55cdaf;">
+  <div style="font-family: Helvetica Neue, Arial, sans-serif; font-weight: 700; font-size: 0.9rem; color: #24244c; margin-bottom: 0.4rem;">👩‍🎨 Designerin</div>
+  <div style="font-size: 0.85rem; color: #646465; line-height: 1.6;">Überlegt, wie die App <strong>aussieht und sich anfühlt</strong> – damit sie einfach zu benutzen ist.</div>
+</div>
+
+<div style="padding: 1rem 1.25rem; background: #f4f4f4; border-left: 4px solid #004153;">
+  <div style="font-family: Helvetica Neue, Arial, sans-serif; font-weight: 700; font-size: 0.9rem; color: #24244c; margin-bottom: 0.4rem;">👩‍💻 Entwicklerin</div>
+  <div style="font-size: 0.85rem; color: #646465; line-height: 1.6;">Schreibt den <strong>Code</strong>, der das Produkt zum Leben erweckt.</div>
+</div>
+
+<div style="padding: 1rem 1.25rem; background: #f4f4f4; border-left: 4px solid #fff019;">
+  <div style="font-family: Helvetica Neue, Arial, sans-serif; font-weight: 700; font-size: 0.9rem; color: #24244c; margin-bottom: 0.4rem;">🙋 Nutzerin</div>
+  <div style="font-size: 0.85rem; color: #646465; line-height: 1.6;">Die Person, die das Produkt am Ende <strong>wirklich benutzt</strong> – und deren Bedürfnisse am wichtigsten sind.</div>
+</div>
+
+</div>
+
+---
+layout: default
+---
+
+# User Stories – Was soll die Software können?
+
+Bevor eine Zeile Code geschrieben wird, muss klar sein: **Was soll das Programm überhaupt tun?**  
+Dafür schreibt man **User Stories** – kurze Sätze aus Sicht der Nutzerin.
+
+<div style="margin-top: 1.5rem; padding: 1.25rem 1.5rem; background: #f4f4f4; border-left: 4px solid #ff9c66; font-size: 1rem; line-height: 1.8;">
+  <strong>Als</strong> <em>[wer?]</em> möchte ich <em>[was?]</em>, damit <em>[warum?]</em>.
+</div>
+
+<div style="margin-top: 1.5rem; display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; font-size: 0.88rem;">
+
+<div style="padding: 1rem 1.25rem; background: white; border: 1px solid #d8d8d8; border-radius: 4px;">
+  <div style="font-family: Helvetica Neue, Arial, sans-serif; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #ff9c66; margin-bottom: 0.5rem;">Beispiel 1</div>
+  <div style="line-height: 1.7;">Als <strong>Schülerin</strong> möchte ich meinen Stundenplan online sehen, damit ich immer weiß, was als nächstes kommt.</div>
+</div>
+
+<div style="padding: 1rem 1.25rem; background: white; border: 1px solid #d8d8d8; border-radius: 4px;">
+  <div style="font-family: Helvetica Neue, Arial, sans-serif; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #ff9c66; margin-bottom: 0.5rem;">Beispiel 2</div>
+  <div style="line-height: 1.7;">Als <strong>Vereinsmitglied</strong> möchte ich Termine eintragen können, damit alle Bescheid wissen.</div>
+</div>
+
+</div>
+
+<div style="margin-top: 1.25rem; padding: 0.9rem 1.25rem; background: #f4f4f4; border-left: 3px solid #55cdaf; font-size: 0.88rem;">
+  User Stories helfen dem ganzen Team, das <strong>gleiche Ziel</strong> vor Augen zu haben – ohne technisches Kauderwelsch.
+</div>
+
+---
+layout: default
+---
+
+# Specs – Was soll gebaut werden?
+
+Eine User Story sagt **was** gebaut werden soll. Eine **Spec** beschreibt **wie genau** – für Entwicklerinnen und für KI-Coding-Agents.
+
+<div style="margin-top: 1.25rem; display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+
+<div>
+
+<div style="font-family: Helvetica Neue, Arial, sans-serif; font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #646465; margin-bottom: 0.75rem;">User Story</div>
+
+<div style="padding: 1rem 1.25rem; background: #f4f4f4; border-left: 4px solid #ff9c66; font-size: 0.88rem; line-height: 1.7;">
+  Als Nutzerin möchte ich mich einloggen können, damit nur ich meine Daten sehe.
+</div>
+
+<div style="margin-top: 1rem; font-family: Helvetica Neue, Arial, sans-serif; font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #646465; margin-bottom: 0.75rem;">Spec (Ausschnitt)</div>
+
+<div style="padding: 1rem 1.25rem; background: #f4f4f4; border-left: 4px solid #55cdaf; font-size: 0.82rem; line-height: 1.8;">
+  <ul style="margin: 0; padding-left: 1.2rem;">
+    <li>Formular mit E-Mail und Passwort</li>
+    <li>Passwort mindestens 8 Zeichen</li>
+    <li>Fehlermeldung bei falschem Passwort</li>
+    <li>Nach Login: Weiterleitung zur Startseite</li>
+  </ul>
+</div>
+
+</div>
+
+<div>
+
+<div style="font-family: Helvetica Neue, Arial, sans-serif; font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #646465; margin-bottom: 0.75rem;">Wer liest die Spec?</div>
+
+<div style="display: flex; flex-direction: column; gap: 0.75rem;">
+
+<div style="padding: 0.9rem 1.1rem; background: #f4f4f4; border-left: 4px solid #004153; font-size: 0.85rem; line-height: 1.6;">
+  <strong>👩‍💻 Entwicklerin</strong><br>
+  <span style="color: #646465;">Versteht, was zu bauen ist – und kann nachfragen, wenn etwas unklar ist.</span>
+</div>
+
+<div style="padding: 0.9rem 1.1rem; background: #f4f4f4; border-left: 4px solid #ff9c66; font-size: 0.85rem; line-height: 1.6;">
+  <strong>🤖 KI-Coding-Agent</strong><br>
+  <span style="color: #646465;">Kann <strong>nicht nachfragen</strong> – braucht eine klare, vollständige Beschreibung, sonst erfindet er einfach etwas.</span>
+</div>
+
+</div>
+
+<div style="margin-top: 0.75rem; padding: 0.75rem 1rem; background: #fff0e8; border-left: 3px solid #ff9c66; font-size: 0.82rem; line-height: 1.6;">
+  Je präziser die Spec, desto besser das Ergebnis – besonders wichtig, wenn eine KI den Code schreibt.
+</div>
+
+</div>
+
+</div>
+
+---
+layout: default
+---
+
+# Git – Gemeinsam am Code arbeiten
+
+Stell dir vor, ihr schreibt alle gleichzeitig an demselben Word-Dokument. Chaos!  
+**Git** löst dieses Problem für Code.
+
+<div style="margin-top: 1.5rem; display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: start;">
+
+<div>
+
+<div style="font-size: 0.88rem; line-height: 1.7; margin-bottom: 1rem;">
+  Git ist ein <strong>Versionsverwaltungs-System</strong>. Es speichert jeden Schritt des Codes – wie ein Speicherstand in einem Videospiel.
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 0.6rem; font-size: 0.85rem;">
+  <div style="display: flex; align-items: center; gap: 0.75rem; padding: 0.6rem 0.9rem; background: #f4f4f4; border-radius: 4px;">
+    <span style="font-size: 1.1rem;">💾</span>
+    <span><strong>commit</strong> – einen Speicherstand anlegen</span>
+  </div>
+  <div style="display: flex; align-items: center; gap: 0.75rem; padding: 0.6rem 0.9rem; background: #f4f4f4; border-radius: 4px;">
+    <span style="font-size: 1.1rem;">🌿</span>
+    <span><strong>branch</strong> – einen eigenen Bereich ausprobieren</span>
+  </div>
+  <div style="display: flex; align-items: center; gap: 0.75rem; padding: 0.6rem 0.9rem; background: #f4f4f4; border-radius: 4px;">
+    <span style="font-size: 1.1rem;">🔀</span>
+    <span><strong>merge</strong> – Änderungen zusammenführen</span>
+  </div>
+</div>
+
+</div>
+
+<div>
+
+<div style="font-family: Helvetica Neue, Arial, sans-serif; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #646465; margin-bottom: 0.75rem;">Verlauf im Team</div>
+
+<div style="display: flex; flex-direction: column; gap: 0;">
+  <div style="display: flex; align-items: center; gap: 0.75rem; padding: 0.5rem 0.9rem; background: white; border: 1px solid #d8d8d8; border-bottom: none; font-size: 0.8rem;">
+    <span style="color: #55cdaf; font-weight: 700;">●</span>
+    <span style="color: #646465; font-size: 0.72rem; font-family: monospace;">v3</span>
+    <span>Anna: Kontaktformular hinzugefügt</span>
+  </div>
+  <div style="display: flex; align-items: center; gap: 0.75rem; padding: 0.5rem 0.9rem; background: white; border: 1px solid #d8d8d8; border-bottom: none; font-size: 0.8rem;">
+    <span style="color: #55cdaf; font-weight: 700;">●</span>
+    <span style="color: #646465; font-size: 0.72rem; font-family: monospace;">v2</span>
+    <span>Lena: Farben angepasst</span>
+  </div>
+  <div style="display: flex; align-items: center; gap: 0.75rem; padding: 0.5rem 0.9rem; background: white; border: 1px solid #d8d8d8; font-size: 0.8rem;">
+    <span style="color: #d8d8d8; font-weight: 700;">●</span>
+    <span style="color: #646465; font-size: 0.72rem; font-family: monospace;">v1</span>
+    <span style="color: #646465;">Startseite erstellt</span>
+  </div>
+</div>
+
+<div style="margin-top: 0.75rem; padding: 0.75rem 1rem; background: #f4f4f4; border-left: 3px solid #ff9c66; font-size: 0.82rem; line-height: 1.6;">
+  Man kann jederzeit zu einem alten Stand zurückspringen – kein Fehler ist für immer!
+</div>
+
+</div>
+
 </div>
