@@ -473,48 +473,16 @@ layout: default
 
 # Wie kommt eine Website zu dir?
 
-<div style="margin-top: 2rem; display: flex; align-items: center; justify-content: center; gap: 0;">
-  <div style="text-align: center; padding: 0.9rem 1rem; background: #f4f4f4; border-top: 3px solid #004153; width: 8rem;">
-    <div style="font-size: 1.5rem; margin-bottom: 0.3rem;">🗂️</div>
-    <div style="font-family: Helvetica Neue, Arial, sans-serif; font-weight: 700; font-size: 0.85rem; color: #24244c;">DNS</div>
-    <div style="font-size: 0.72rem; color: #646465; margin-top: 0.2rem;">Kontakte-App des Internets</div>
-  </div>
-  <div style="display: flex; flex-direction: column; gap: 0.4rem; padding: 0 0.5rem; font-size: 0.7rem; color: #646465; text-align: center;">
-    <div>← meinekatze.de?</div>
-    <div>93.184.216.34 →</div>
-  </div>
-  <div style="text-align: center; padding: 0.9rem 1rem; background: #f4f4f4; border-top: 3px solid #ff9c66; width: 8rem;">
-    <div style="font-size: 1.5rem; margin-bottom: 0.3rem;">💻</div>
-    <div style="font-family: Helvetica Neue, Arial, sans-serif; font-weight: 700; font-size: 0.85rem; color: #24244c;">Browser</div>
-    <div style="font-size: 0.72rem; color: #646465; margin-top: 0.2rem;">dein Computer</div>
-  </div>
-  <div style="display: flex; flex-direction: column; gap: 0.4rem; padding: 0 0.5rem; font-size: 0.7rem; color: #646465; text-align: center;">
-    <div>→ Dateien bitte!</div>
-    <div style="display: flex; align-items: center; justify-content: center; gap: 0.3rem;">
-      <div style="background: #fff0e8; border: 1px solid #ff9c66; border-radius: 2px; padding: 0.1rem 0.35rem; font-size: 0.65rem; white-space: nowrap;">🌐 HTML CSS JS</div>
-      <div>←</div>
-    </div>
-  </div>
-  <div style="text-align: center; padding: 0.9rem 1rem; background: #f4f4f4; border-top: 3px solid #55cdaf; width: 8rem;">
-    <div style="font-size: 1.5rem; margin-bottom: 0.3rem;">🖥️</div>
-    <div style="font-family: Helvetica Neue, Arial, sans-serif; font-weight: 700; font-size: 0.85rem; color: #24244c;">Server</div>
-    <div style="font-size: 0.72rem; color: #646465; margin-top: 0.2rem;">liefert die Dateien</div>
-  </div>
+<div style="display: flex; justify-content: center; margin-top: 1rem;">
+  <img src="/assets/internet-1.png" style="max-height: 420px;" />
 </div>
 
-<div style="margin-top: 1.75rem; display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1rem; font-size: 0.84rem;">
-<div style="padding: 0.75rem 1rem; background: #f4f4f4; border-left: 3px solid #004153;">
-  <strong>DNS</strong><br>
-  <span style="color: #646465;">Uebersetzt den Namen meinekatze.de in eine IP-Adresse – wie die Kontakte-App auf dem Smartphone.</span>
-</div>
-<div style="padding: 0.75rem 1rem; background: #f4f4f4; border-left: 3px solid #ff9c66;">
-  <strong>Browser (Client)</strong><br>
-  <span style="color: #646465;">Stellt Anfragen und zeigt am Ende die fertige Website an.</span>
-</div>
-<div style="padding: 0.75rem 1rem; background: #f4f4f4; border-left: 3px solid #55cdaf;">
-  <strong>Server</strong><br>
-  <span style="color: #646465;">Lagert die Website-Dateien und schickt sie auf Anfrage zurueck.</span>
-</div>
+---
+layout: default
+---
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <img src="/assets/internet-2.png" style="max-height: 480px;" />
 </div>
 
 ---
